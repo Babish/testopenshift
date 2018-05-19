@@ -1,0 +1,1 @@
+C:\Users\Babish\source\repos\TodoApi\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  todoapi:
+    build:
+      context: C:\Users\Babish\source\repos\TodoApi
+      dockerfile: TodoApi\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: todoapi
+    ports:
+    - 80/tcp
+version: '3.0'
